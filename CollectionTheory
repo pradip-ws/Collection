@@ -1,0 +1,43 @@
+provide ready made implemented algorithm like queue stake linkedlist list 
+optimized algorithm
+
+Map interfaced is separted from collection interface -> List, Set, Queue
+
+List - to store elements in continugs memory
+
+1)ArrayList
+example... List>Integer> list = new ArrayList();
+methods :
+1.add(element)
+2.add(index,element)
+3.addAll(newList)
+4.get(index) 
+5.remove(index)
+6.remove(element)
+7.list.clear()
+8.set(index,element)
+9.contains(element)
+10. size()
+
+Note : whenever we written any object inside sysout it will return thorugh to string method of that class
+time complexity : O(n)  internally required shifting element for add remove operation
+
+below are three ways to traverse thorugh list elements :
+1. use simple loop and run till size() of list
+
+2. foreach loop
+for(Integer element : list){
+  System.out.println(element);
+}
+
+3.
+Iterator<Integer> it = list.iterator();
+
+while(it.hasNext()){
+  System.out.println(element);
+}
+
+
+
+
+
